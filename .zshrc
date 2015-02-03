@@ -87,3 +87,5 @@ genpwd() {
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 alias codecat='pygmentize $1'
 
+# map numpad-carriage-return to carriage-return
+bindkey -s "^[OM" "^M"
