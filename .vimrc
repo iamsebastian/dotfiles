@@ -1,4 +1,6 @@
-" ------------ ajh's .vimrc ------------
+" -----------------------------------
+" --------- BLEI on .vimrc ----------
+" -----------------------------------
 " Plugins {{{1
 execute pathogen#infect()
 runtime macros/matchit.vim
@@ -6,7 +8,7 @@ runtime macros/matchit.vim
 " Syntax, FileType, Colorscheme {{{1
 syntax on
 filetype plugin indent on
-colorscheme sorcerer
+colorscheme molokai
 
 " General Settings {{{1
 set autoread autowrite
