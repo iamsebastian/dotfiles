@@ -43,3 +43,6 @@
 [submodule ".vim/.vim/bundle/ctrl-py-matcher"]
 	path = .vim/.vim/bundle/ctrl-py-matcher
 	url = https://github.com/FelikZ/ctrlp-py-matcher.git
+[submodule ".vim/bundle/vim-haml"]
+	path = .vim/bundle/vim-haml
+	url = https://github.com/tpope/vim-haml.git
