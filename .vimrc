@@ -130,8 +130,6 @@ let g:no_default_tabular_maps = 1
 if !has('python')
     echo 'In order to use pymatcher plugin, you need +python compiled vim'
 else
-    echo 'Is there the pymatcher?'
-    echo pymatcher
     " let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
 endif
 
