@@ -37,3 +37,9 @@
 [submodule ".vim/bundle/YouCompleteMe"]
 	path = .vim/bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
+[submodule ".vim/bundle/ack.vim"]
+	path = .vim/bundle/ack.vim
+	url = https://github.com/mileszs/ack.vim.git
+[submodule ".vim/.vim/bundle/ctrl-py-matcher"]
+	path = .vim/.vim/bundle/ctrl-py-matcher
+	url = https://github.com/FelikZ/ctrlp-py-matcher.git

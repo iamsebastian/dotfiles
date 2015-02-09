@@ -40,7 +40,6 @@ set wildmenu wildcharm=<C-z>
 set hlsearch incsearch
 set ignorecase smartcase
 set showmatch matchtime=2
-set grepprg=ag\ --hidden\ --vimgrep grepformat^=%f:%l:%c:%m
 
 " Indent and Fold Settings {{{1
 set softtabstop=4 shiftwidth=4 shiftround
@@ -125,8 +124,34 @@ let [hs_highlight_boolean, hs_highlight_types, hs_highlight_more_types] = [1, 1,
 let [python_highlight_all, java_highlight_all] = [1, 1]
 let [netrw_winsize, netrw_banner, netrw_liststyle] = [20, 0, 3]
 let [fist_in_private, fist_anonymously] = [0, 0]
-let [ctrlp_use_caching, ctrlp_user_command] = [0, 'ag %s -l --nocolor --hidden -g ""']
 let g:no_default_tabular_maps = 1
+
+" Use pymatcher instead of the fuzzy matcher provided with CtrlP
+if !has('python')
+    echo 'In order to use pymatcher plugin, you need +python compiled vim'
+else
+    echo 'Is there the pymatcher?'
+    echo pymatcher
+    " let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
+endif
+
+" CtrlP settings
+" Set delay to prevent extra search
+let g:ctrlp_lazy_update = 150
+" No file limit
+let g:ctrlp_max_files = 0
+" Do not clear filename cache, to improve CtrlP startup time
+" You can manually clear it by <F5>
+let g:ctrlp_clear_cache_on_exit = 0
+" If ag is available use it as filename list generator instead of 'find'
+if executable('ag')
+    " Let CtrlP use ag
+    let g:ctrlp_user_command = 'ag %s -i --nocolor --nogroup --ignore ''.git'' --ignore ''.DS_Store'' --ignore ''node_modules'' --hidden -g ""'
+    " Let grep use ag
+    set grepprg=ag\ --hidden\ --vimgrep grepformat^=%f:%l:%c:%m
+    " Let ack.vim use ag
+    let g:ackprg='ag --nogroup --hidden --nocolor --column'
+endif
 
 " Plugin Mappings {{{1
 " CtrlP {{{2
@@ -167,6 +192,6 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
-set runtimepath^=~/.vim/bundle/ctrlp.vim
+" set runtimepath^=~/dotfiles/.vim/bundle/ctrlp.vim
 
 nmap <F8> :TagbarToggle<CR>
