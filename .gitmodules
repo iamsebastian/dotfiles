@@ -49,3 +49,6 @@
 [submodule ".vim/bundle/vim-bufferline"]
 	path = .vim/bundle/vim-bufferline
 	url = https://github.com/bling/vim-bufferline
+[submodule ".fonts"]
+	path = .fonts
+	url = https://github.com/powerline/fonts.git
