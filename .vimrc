@@ -154,6 +154,8 @@ endif
 " airline settings
 " use patched powerline fonts
 let g:airline_powerline_fonts = 1
+" automatically displays all buffers when there is only on tab open.
+let g:airline#extensions#tabline#enabled = 1
 
 " Plugin Mappings {{{1
 " CtrlP {{{2
@@ -185,9 +187,9 @@ command! BD silent e# | bd#
 command! -bar Scriptnames call setqflist(scripts#get()) | copen
 command! Mvim silent! execute "!mvim %" | redraw!
 
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+" set statusline+=%#warningmsg#
+" set statusline+=%{SyntasticStatuslineFlag()}
+" set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
