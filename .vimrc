@@ -151,6 +151,10 @@ if executable('ag')
     let g:ackprg='ag --nogroup --hidden --nocolor --column'
 endif
 
+" airline settings
+" use patched powerline fonts
+let g:airline_powerline_fonts = 1
+
 " Plugin Mappings {{{1
 " CtrlP {{{2
 nnoremap <leader>f :CtrlP<CR>
