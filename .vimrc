@@ -8,7 +8,8 @@ runtime macros/matchit.vim
 " Syntax, FileType, Colorscheme {{{1
 syntax on
 filetype plugin indent on
-colorscheme sorcerer
+colorscheme badwolf
+" :AirlineTheme badwolf
 
 " General Settings {{{1
 set autoread autowrite
@@ -151,10 +152,18 @@ if executable('ag')
     let g:ackprg='ag --nogroup --hidden --nocolor --column'
 endif
 
-" airline settings
-" use patched powerline fonts
+" Airline settings.
+" Use patched powerline fonts:
 let g:airline_powerline_fonts = 1
-" automatically displays all buffers when there is only on tab open.
+" Automatically displays all buffers when there is only on tab open:
+let g:airline#extensions#tabline#enabled = 1
+" Airline theme is automatically chosen based on colorscheme.
+" Airline section c would be the filename, but it is already shown in the
+" tabbar:
+let g:airline_section_c = ''
+" Shortform mode text.
+let g:airline_mode_map = {'__': '-', 'n': 'N', 'i': 'I', 'R': 'R', 'c': 'C', 'v': 'V', 'V': 'V', 's': 'S', 'S': 'S'}
+
 let g:airline#extensions#tabline#enabled = 1
 
 " Plugin Mappings {{{1
@@ -186,10 +195,6 @@ augroup END
 command! BD silent e# | bd#
 command! -bar Scriptnames call setqflist(scripts#get()) | copen
 command! Mvim silent! execute "!mvim %" | redraw!
-
-" set statusline+=%#warningmsg#
-" set statusline+=%{SyntasticStatuslineFlag()}
-" set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
