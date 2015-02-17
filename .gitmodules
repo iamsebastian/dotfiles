@@ -55,3 +55,10 @@
 [submodule "t"]
 	path = t
 	url = https://github.com/sjl/t/
+[submodule ".vim/bundle/smyck-color-scheme"]
+	path = .vim/bundle/smyck-color-scheme
+	url = https://github.com/hukl/Smyck-Color-Scheme.git
+[submodule "awesome-terminal-fonts"]
+	path = awesome-terminal-fonts
+	url = https://github.com/gabrielelana/awesome-terminal-fonts.git
+	branch = patching-strategy
