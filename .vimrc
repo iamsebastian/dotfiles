@@ -10,6 +10,8 @@ syntax on
 filetype plugin indent on
 colorscheme badwolf
 " :AirlineTheme badwolf
+" Force 256 colors
+set t_Co=256
 
 " General Settings {{{1
 set autoread autowrite
