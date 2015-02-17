@@ -89,3 +89,6 @@ alias codecat='pygmentize $1'
 
 # map numpad-carriage-return to carriage-return
 bindkey -s "^[OM" "^M"
+
+# t - the task manager
+alias t='python ~/dotfiles/t/t.py --task-dir ~/dotfiles/tasks --list tasks'
