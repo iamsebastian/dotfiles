@@ -8,8 +8,11 @@ runtime macros/matchit.vim
 " Syntax, FileType, Colorscheme {{{1
 syntax on
 filetype plugin indent on
-colorscheme badwolf
-" :AirlineTheme badwolf
+" First set other color scheme, so the outer bar get's also styled
+" colorscheme badwolf
+" colorscheme smyck
+set background=dark
+colorscheme solarized
 " Force 256 colors
 set t_Co=256
 
@@ -160,6 +163,7 @@ let g:airline_powerline_fonts = 1
 " Automatically displays all buffers when there is only on tab open:
 let g:airline#extensions#tabline#enabled = 1
 " Airline theme is automatically chosen based on colorscheme.
+" let g:airline_theme='wombat'
 " Airline section c would be the filename, but it is already shown in the
 " tabbar:
 let g:airline_section_c = ''
@@ -206,3 +210,13 @@ let g:syntastic_check_on_wq = 0
 " set runtimepath^=~/dotfiles/.vim/bundle/ctrlp.vim
 
 nmap <F8> :TagbarToggle<CR>
+
+" Updates for vim powerline and the icon fonts
+let g:Powerline_symbols = 'fancy'
+let g:Powerline_dividers_override = [[0xe0b0], [0xe0b1], [0xe0b2], [0xe0b3]]
+let g:Powerline_symbols_override = {
+  \ 'BRANCH': [0xe238],
+  \ 'RO'    : [0xe0a2],
+  \ 'FT'    : [0xe1f6],
+  \ 'LINE'  : [0xe0a1],
+  \ }
