@@ -1,4 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/Users/sebastianblei/bitbucket/cr/api/CrowdRadioApi3.0/views/partials'
-let g:netrw_dirhist_2='/Users/sebastianblei/bitbucket/cr/api/CrowdRadioApi3.0/views/partials/jade'
