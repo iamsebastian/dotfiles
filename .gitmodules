@@ -62,3 +62,12 @@
 	path = awesome-terminal-fonts
 	url = https://github.com/gabrielelana/awesome-terminal-fonts.git
 	branch = patching-strategy
+[submodule ".vim/bundle/vim-jsdoc"]
+	path = .vim/bundle/vim-jsdoc
+	url = https://github.com/heavenshell/vim-jsdoc.git
+[submodule ".vim/bundle/vim-colors-solarized"]
+	path = .vim/bundle/vim-colors-solarized
+	url = https://github.com/altercation/vim-colors-solarized.git
+[submodule ".vim/bundle/solarized"]
+	path = .vim/bundle/solarized
+	url = https://github.com/wadkar/solarized.git
