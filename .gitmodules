@@ -72,3 +72,6 @@
 	path = .vim/bundle/solarized
 	url = https://github.com/wadkar/solarized.git
 	branch = vim-iterm2-fixes
+[submodule ".vim/bundle/emmet-vim"]
+	path = .vim/bundle/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
