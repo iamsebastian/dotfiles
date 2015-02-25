@@ -149,3 +149,6 @@ alias musicstream1="mplayer http://62.75.154.250:80"
 
 # show file and directory sizes
 alias fatfiles="~/dotfiles/fatfiles.sh"
+
+# vim open ~/.vimrc
+alias VIMCONFIG="vim ~/.vimrc"
