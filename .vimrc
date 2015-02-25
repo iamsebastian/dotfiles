@@ -220,3 +220,8 @@ let g:Powerline_symbols_override = {
   \ 'FT'    : [0xe1f6],
   \ 'LINE'  : [0xe0a1],
   \ }
+
+" Custom key mappings
+source ~/dotfiles/.vim/mappings/remap_arrowkeys.vim
+source ~/dotfiles/.vim/mappings/remap_colons.vim
+source ~/dotfiles/.vim/mappings/remap_hjkl.vim
