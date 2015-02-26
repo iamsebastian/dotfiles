@@ -81,3 +81,6 @@
 [submodule ".vim/bundle/dash.vim"]
 	path = .vim/bundle/dash.vim
 	url = https://github.com/rizzatti/dash.vim
+[submodule ".vim/bundle/vim-css-color"]
+	path = .vim/bundle/vim-css-color
+	url = https://github.com/skammer/vim-css-color.git
