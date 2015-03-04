@@ -1,0 +1,7 @@
+[user]
+	name = Sebastian Blei
+	email = s@blei.in
+[http]
+	sslVerify = false
+[push]
+	default = simple
