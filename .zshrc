@@ -97,3 +97,4 @@ bindkey -s "^[OM" "^M"
 alias t='python ~/dotfiles/t/t.py --task-dir ~/dotfiles/tasks --list tasks'
 
 source ~/dotfiles/.aliases
+. `brew --prefix`/etc/profile.d/z.sh
