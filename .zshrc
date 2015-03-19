@@ -40,7 +40,7 @@ COMPLETION_WAITING_DOTS="true"
 # much faster.
 # DISABLE_UNTRACKED_FILES_DIRTY="true"
 
-# Uncomment following line if you want to  shown in the command execution time stamp 
+# Uncomment following line if you want to  shown in the command execution time stamp
 # in the history command output. The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|
 # yyyy-mm-dd
 # HIST_STAMPS="mm/dd/yyyy"
@@ -98,5 +98,5 @@ alias t='python ~/dotfiles/t/t.py --task-dir ~/dotfiles/tasks --list tasks'
 
 source ~/dotfiles/.aliases
 
-# init Z
+# Initialize z
 . `brew --prefix`/etc/profile.d/z.sh
