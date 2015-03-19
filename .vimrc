@@ -141,7 +141,7 @@ endif
 
 " CtrlP settings
 " Set delay to prevent extra search
-let g:ctrlp_lazy_update = 150
+let g:ctrlp_lazy_update = 0
 " No file limit
 let g:ctrlp_max_files = 0
 " Do not clear filename cache, to improve CtrlP startup time
