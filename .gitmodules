@@ -90,3 +90,6 @@
 [submodule ".vim/bundle/vim-mocha"]
 	path = .vim/bundle/vim-mocha
 	url = https://github.com/geekjuice/vim-mocha.git
+[submodule ".vim/bundle/vim-spec"]
+	path = .vim/bundle/vim-spec
+	url = https://github.com/geekjuice/vim-spec.git
