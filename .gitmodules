@@ -30,10 +30,6 @@
     path = .vim/bundle/vim-jade
     url = https://github.com/digitaltoad/vim-jade.git
 
-[submodule ".vim/bundle/vim-javascript"]
-    path = .vim/bundle/vim-javascript
-    url = https://github.com/pangloss/vim-javascript.git
-
 [submodule ".vim/bundle/YouCompleteMe"]
 	path = .vim/bundle/YouCompleteMe
 	url = https://github.com/Valloric/YouCompleteMe.git
@@ -90,3 +86,9 @@
 [submodule ".vim/bundle/vim-spec"]
 	path = .vim/bundle/vim-spec
 	url = https://github.com/geekjuice/vim-spec.git
+[submodule ".vim/bundle/javascript-libraries-syntax.vim"]
+	path = .vim/bundle/javascript-libraries-syntax.vim
+	url = https://github.com/othree/javascript-libraries-syntax.vim.git
+[submodule ".vim/bundle/SyntaxComplete"]
+	path = .vim/bundle/SyntaxComplete
+	url = https://github.com/vim-scripts/SyntaxComplete
