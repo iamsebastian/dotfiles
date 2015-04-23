@@ -92,3 +92,6 @@
 [submodule ".vim/bundle/SyntaxComplete"]
 	path = .vim/bundle/SyntaxComplete
 	url = https://github.com/vim-scripts/SyntaxComplete
+[submodule ".vim/bundle/tern_for_vim"]
+	path = .vim/bundle/tern_for_vim
+	url = https://github.com/marijnh/tern_for_vim.git
