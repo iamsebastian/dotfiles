@@ -100,4 +100,7 @@ source ~/dotfiles/.aliases
 
 # Initialize z
 #. `brew --prefix`/etc/profile.d/z.sh
-. /etc/profile.d/z.sh
+. ~/dotfiles/z/z.sh
+
+# Set correct term for tmux so solarized theme works in vim
+alias tmux="TERM=screen-256color-bce tmux"
