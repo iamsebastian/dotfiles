@@ -99,4 +99,5 @@ alias t='python ~/dotfiles/t/t.py --task-dir ~/dotfiles/tasks --list tasks'
 source ~/dotfiles/.aliases
 
 # Initialize z
-. `brew --prefix`/etc/profile.d/z.sh
+#. `brew --prefix`/etc/profile.d/z.sh
+. /etc/profile.d/z.sh
