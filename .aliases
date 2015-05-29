@@ -152,3 +152,6 @@ alias fatfiles="~/dotfiles/fatfiles.sh"
 
 # vim open ~/.vimrc
 alias VIMCONFIG="vim ~/.vimrc"
+
+# http server in cwd
+alias _serve="python -m SimpleHTTPServer 5000"
