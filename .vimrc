@@ -9,8 +9,6 @@ runtime macros/matchit.vim
 syntax on
 filetype plugin indent on
 " First set other color scheme, so the outer bar get's also styled
-" colorscheme badwolf
-" colorscheme smyck
 set background=dark
 colorscheme solarized
 " Force 256 colors
