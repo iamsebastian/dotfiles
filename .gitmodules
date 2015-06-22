@@ -95,6 +95,9 @@
 [submodule ".vim/bundle/tern_for_vim"]
     path = .vim/bundle/tern_for_vim
     url = https://github.com/marijnh/tern_for_vim.git
+[submodule ".vim/bundle/rust.vim"]
+    path = .vim/bundle/rust.vim
+    url = https://github.com/rust-lang/rust.vim
 [submodule "gnome-terminal-colors-solarized"]
     path = gnome-terminal-colors-solarized
     url = https://github.com/Anthony25/gnome-terminal-colors-solarized.git
