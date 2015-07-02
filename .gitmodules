@@ -110,3 +110,6 @@
 [submodule ".vim/bundle/vim-javascript-syntax"]
     path = .vim/bundle/vim-javascript-syntax
     url = https://github.com/jelera/vim-javascript-syntax.git
+[submodule ".vim/bundle/vim-rest-console"]
+	path = .vim/bundle/vim-rest-console
+	url = https://github.com/diepm/vim-rest-console.git
