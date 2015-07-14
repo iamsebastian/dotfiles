@@ -225,3 +225,4 @@ source ~/dotfiles/.vim/mappings/remap_colons.vim
 source ~/dotfiles/.vim/mappings/remap_hjkl.vim
 source ~/dotfiles/.vim/mappings/search_word_in_files.vim
 source ~/dotfiles/.vim/mappings/jump_in_listings.vim
+source ~/dotfiles/.vim/mappings/reindent_files.vim
