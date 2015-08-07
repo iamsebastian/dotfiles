@@ -230,6 +230,7 @@ let g:Powerline_symbols_override = {
 source ~/dotfiles/.vim/mappings/remap_arrowkeys.vim
 source ~/dotfiles/.vim/mappings/remap_colons.vim
 source ~/dotfiles/.vim/mappings/remap_hjkl.vim
+source ~/dotfiles/.vim/mappings/replace_under_cursor.vim
 source ~/dotfiles/.vim/mappings/search_word_in_files.vim
 source ~/dotfiles/.vim/mappings/jump_in_listings.vim
 source ~/dotfiles/.vim/mappings/reindent_files.vim
