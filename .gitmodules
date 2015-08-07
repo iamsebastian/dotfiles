@@ -113,3 +113,6 @@
 [submodule ".vim/bundle/vim-rest-console"]
 	path = .vim/bundle/vim-rest-console
 	url = https://github.com/diepm/vim-rest-console.git
+[submodule ".vim/bundle/Greplace.vim"]
+	path = .vim/bundle/Greplace.vim
+	url = https://github.com/vim-scripts/Greplace.vim

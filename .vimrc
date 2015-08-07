@@ -8,11 +8,17 @@ runtime macros/matchit.vim
 " Syntax, FileType, Colorscheme {{{1
 syntax on
 filetype plugin indent on
-" First set other color scheme, so the outer bar get's also styled
+" Force 256 colors
+" set t_Co=256
+let g:solarized_termcolors=256
 set background=dark
 colorscheme solarized
-" Force 256 colors
-set t_Co=256
+
+
+" Let's toogle between dark und light background in color theme.
+nmap <unique> <F5> <Plug>ToggleBackground
+imap <unique> <F5> <Plug>ToggleBackground
+vmap <unique> <F5> <Plug>ToggleBackground
 
 " General Settings {{{1
 set autoread autowrite
@@ -66,7 +72,8 @@ set undofile undodir=~/.vim/backup/undo/
 
 " GUI Settings {{{1
 if has("gui_running")
-  set guioptions= lines=40 columns=140 guifont=Fira\ Mono:h13
+  set guioptions= lines=40 columns=140
+  set guifont=Meslo\ LG\ S\ for\ Powerline\ 12
 endif
 
 " General Mappings {{{1
