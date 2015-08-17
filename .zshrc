@@ -5,7 +5,7 @@ ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="agnoster"
+# ZSH_THEME="agnoster"
 
 # Default user set, to not show it in the prompt
 DEFAULT_USER=$(whoami)
@@ -104,3 +104,9 @@ source ~/dotfiles/.aliases
 
 # Set correct term for tmux so solarized theme works in vim
 alias tmux="TERM=screen-256color-bce tmux"
+
+# Initialize the prompt system (if not so already) and choose pure:
+fpath=("$HOME/dotfiles/zfunctions" $fpath)
+autoload -U promptinit && promptinit
+# following line will be like: ZSH_THEME="pure"
+prompt pure
