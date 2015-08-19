@@ -116,3 +116,9 @@
 [submodule ".vim/bundle/Greplace.vim"]
 	path = .vim/bundle/Greplace.vim
 	url = https://github.com/vim-scripts/Greplace.vim
+[submodule ".vim/bundle/ag.vim"]
+	path = .vim/bundle/ag.vim
+	url = https://github.com/rking/ag.vim.git
+[submodule ".vim/bundle/ctrlsf.vim"]
+	path = .vim/bundle/ctrlsf.vim
+	url = git@github.com:dyng/ctrlsf.vim.git

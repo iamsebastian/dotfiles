@@ -157,7 +157,7 @@ if executable('ag')
     " Let CtrlP use ag
     let g:ctrlp_user_command = 'ag %s -i --nocolor --nogroup --ignore ''.git'' --ignore ''.DS_Store'' --ignore ''node_modules'' --hidden -g ""'
     " Let grep use ag
-    set grepprg=ag\ --hidden\ --vimgrep grepformat^=%f:%l:%c:%m
+    set grepprg=ag\ --hidden\ grepformat^=%f:%l:%c:%m
     " Let ack.vim use ag
     let g:ackprg='ag --nogroup --hidden --nocolor --column'
 endif
@@ -234,3 +234,4 @@ source ~/dotfiles/.vim/mappings/replace_under_cursor.vim
 source ~/dotfiles/.vim/mappings/search_word_in_files.vim
 source ~/dotfiles/.vim/mappings/jump_in_listings.vim
 source ~/dotfiles/.vim/mappings/reindent_files.vim
+source ~/dotfiles/.vim/mappings/move_in_quickfixlist.vim
