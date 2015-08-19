@@ -226,6 +226,12 @@ let g:Powerline_symbols_override = {
   \ 'LINE'  : [0xe0a1],
   \ }
 
+" NeoComplete
+" source ~/dotfiles/.vim/extended_configs/neocomplete.vim
+
+" Auto fullscreen on linux-gtk-gvim
+source ~/dotfiles/.vim/extended_configs/gtk_fullscreen.vim
+
 " Custom key mappings
 source ~/dotfiles/.vim/mappings/remap_arrowkeys.vim
 source ~/dotfiles/.vim/mappings/remap_colons.vim

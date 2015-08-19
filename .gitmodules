@@ -122,3 +122,9 @@
 [submodule ".vim/bundle/ctrlsf.vim"]
 	path = .vim/bundle/ctrlsf.vim
 	url = git@github.com:dyng/ctrlsf.vim.git
+[submodule ".vim/bundle/neocomplete.vim"]
+	path = .vim/bundle/neocomplete.vim
+	url = git@github.com:Shougo/neocomplete.vim.git
+[submodule ".vim/bundle/vim-multiple-cursors"]
+	path = .vim/bundle/vim-multiple-cursors
+	url = git@github.com:terryma/vim-multiple-cursors.git
