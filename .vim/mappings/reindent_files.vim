@@ -1,2 +1,2 @@
-vmap <Leader>j :%!python -m json.tool<CR>
-vmap <Leader>x :%!tidy -xml -q -i<CR>
+vnoremap <Leader>j :%!python -m json.tool<CR>
+vnoremap <Leader>x :%!tidy -xml -q -i<CR>
