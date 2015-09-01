@@ -104,27 +104,24 @@
 [submodule "z"]
     path = z
     url = https://github.com/rupa/z.git
-[submodule ".vim/bundle/vim-javascript"]
-    # path = .vim/bundle/vim-javascript
-    # url = https://github.com/pangloss/vim-javascript.git
 [submodule ".vim/bundle/vim-javascript-syntax"]
     path = .vim/bundle/vim-javascript-syntax
     url = https://github.com/jelera/vim-javascript-syntax.git
 [submodule ".vim/bundle/vim-rest-console"]
-	path = .vim/bundle/vim-rest-console
-	url = https://github.com/diepm/vim-rest-console.git
+    path = .vim/bundle/vim-rest-console
+    url = https://github.com/diepm/vim-rest-console.git
 [submodule ".vim/bundle/Greplace.vim"]
-	path = .vim/bundle/Greplace.vim
-	url = https://github.com/vim-scripts/Greplace.vim
+    path = .vim/bundle/Greplace.vim
+    url = https://github.com/vim-scripts/Greplace.vim
 [submodule ".vim/bundle/ag.vim"]
-	path = .vim/bundle/ag.vim
-	url = https://github.com/rking/ag.vim.git
+    path = .vim/bundle/ag.vim
+    url = https://github.com/rking/ag.vim.git
 [submodule ".vim/bundle/ctrlsf.vim"]
-	path = .vim/bundle/ctrlsf.vim
-	url = git@github.com:dyng/ctrlsf.vim.git
+    path = .vim/bundle/ctrlsf.vim
+    url = git@github.com:dyng/ctrlsf.vim.git
 [submodule ".vim/bundle/neocomplete.vim"]
-	path = .vim/bundle/neocomplete.vim
-	url = git@github.com:Shougo/neocomplete.vim.git
+    path = .vim/bundle/neocomplete.vim
+    url = git@github.com:Shougo/neocomplete.vim.git
 [submodule ".vim/bundle/vim-multiple-cursors"]
-	path = .vim/bundle/vim-multiple-cursors
-	url = git@github.com:terryma/vim-multiple-cursors.git
+    path = .vim/bundle/vim-multiple-cursors
+    url = git@github.com:terryma/vim-multiple-cursors.git
