@@ -72,8 +72,13 @@ set undofile undodir=~/.vim/backup/undo/
 
 " GUI Settings {{{1
 if has("gui_running")
-  set guioptions= lines=40 columns=140
-  set guifont=Meslo\ LG\ S\ for\ Powerline\ 12
+  if has('gui_macvim')
+      set guifont=Meslo\ LG\ S\ for\ Powerline:h15
+      set linespace=1
+  else
+    set guioptions= lines=40 columns=140
+    set guifont=Meslo\ LG\ S\ for\ Powerline\ 12
+  endif
 endif
 
 " General Mappings {{{1
