@@ -140,3 +140,6 @@
 [submodule ".vim/bundle/powerline-fonts"]
 	path = powerline-fonts
 	url = https://github.com/powerline/fonts
+[submodule ".vim/bundle/vim-mustache-handlebars"]
+	path = .vim/bundle/vim-mustache-handlebars
+	url = https://github.com/mustache/vim-mustache-handlebars
