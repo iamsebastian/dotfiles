@@ -138,7 +138,7 @@
 	path = .vim/bundle/vim-easytags
 	url = https://github.com/xolox/vim-easytags.git
 [submodule ".vim/bundle/powerline-fonts"]
-	path = powerline-fonts
+	path = .vim/bundle/powerline-fonts
 	url = https://github.com/powerline/fonts
 [submodule ".vim/bundle/vim-mustache-handlebars"]
 	path = .vim/bundle/vim-mustache-handlebars
