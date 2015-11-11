@@ -72,7 +72,13 @@ fnCrLink .zshrc
 echo 'Updating git submodules ...'
 cd $targetdir && git submodule update --init --recursive
 
+echo 'Linking local /tmp/ dir to ~/tmp/ ...'
+ln -s /tmp/ $HOME/tmp
+
 echo '\nUpdated git submodules.'
+
+echo '\nInstalling window management controller (for gvim fullscreen)'
+sudo apt-get install wmctrl
 
 echo 'Creating vim backup directory ...'
 mkdir $targetdir/.vim/backup
