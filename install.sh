@@ -101,6 +101,9 @@ $targetdir/.vim/bundle/YouCompleteMe/install.sh
 echo '\nInstalling tmux ...'
 sudo apt-get install tmux
 
+echo '\nInstalling python-pygments (pygmentize) for colourful `ccat`'
+sudo apt-get install pytho-pygments
+
 echo '\nInstalling zsh ...'
 sudo apt-get install zsh
 
