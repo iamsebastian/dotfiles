@@ -107,5 +107,8 @@ sudo apt-get install zsh
 echo '\nInstalling oh-my-zsh ...'
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+echo '\nInstalling zsh-syntax-highlighting plugin ...'
+git clone git://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting
+
 echo '\nInstalling pure oh-my-zsh theme, if npm is installed globally ...'
 npm i -g pure-prompt

@@ -110,3 +110,8 @@ fpath=("$HOME/dotfiles/zfunctions" $fpath)
 autoload -U promptinit && promptinit
 # following line will be like: ZSH_THEME="pure"
 prompt pure
+
+export NVM_DIR="/home/sblei/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
