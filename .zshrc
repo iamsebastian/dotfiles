@@ -71,19 +71,19 @@ export PATH="/Users/sebastianblei/.rvm/gems/ruby-1.9.3-p385/bin:/Users/sebastian
 
 genpwd() {
 
-	zmodload -i zsh/mathfunc
+  zmodload -i zsh/mathfunc
 
-	length=13 # Max possible value are equal to size of $chars.
-	chars="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!?:^~@#$%&*_+=[]/"
+  length=13 # Max possible value are equal to size of $chars.
+  chars="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!?:^~@#$%&*_+=[]/"
 
-	while (( i++ < length ))
-	do
-		random=$((1 + int(${(c)#chars} * rand48())))
-		password+="$chars[$random]"
-		chars[$random]=""
-	done
+  while (( i++ < length ))
+  do
+    random=$((1 + int(${(c)#chars} * rand48())))
+    password+="$chars[$random]"
+    chars[$random]=""
+  done
 
-	print "$password"
+  print "$password"
 }
 
 # ssh
@@ -111,7 +111,12 @@ autoload -U promptinit && promptinit
 # following line will be like: ZSH_THEME="pure"
 prompt pure
 
+$NVM_SYMLINK_CURRENT=true
+
 export NVM_DIR="/home/sblei/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+
+# Directly use stable branch as default node (maybe will then ignore system installed node)
+# nvm use stable
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
