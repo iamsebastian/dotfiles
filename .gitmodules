@@ -143,3 +143,9 @@
 [submodule ".vim/bundle/vim-mustache-handlebars"]
 	path = .vim/bundle/vim-mustache-handlebars
 	url = https://github.com/mustache/vim-mustache-handlebars
+[submodule ".vim/bundle/vim-es6"]
+	path = .vim/bundle/vim-es6
+	url = git@github.com:isRuslan/vim-es6.git
+[submodule ".vim/bundle/vim-indent-guides"]
+	path = .vim/bundle/vim-indent-guides
+	url = git@github.com:nathanaelkane/vim-indent-guides.git

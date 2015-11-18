@@ -52,9 +52,20 @@ set ignorecase smartcase
 set showmatch matchtime=2
 
 " Indent and Fold Settings {{{1
-set softtabstop=4 shiftwidth=4 shiftround
-set smarttab expandtab
+" set softtabstop=4 shiftwidth=4 shiftround
+" set smarttab expandtab
 " set autoindent breakindent breakindentopt=shift:4,sbr
+
+" show existing tab with X spaces width
+set tabstop=2
+" when indenting with [ > ], use X spaces width
+set shiftwidth=2
+" On pressing tab, insert X spaces
+set expandtab
+
+" ### Configure show-indent-guides (vim-indent-guides plugin)
+let g:indent_guides_start_level = 2
+
 set nofoldenable
 
 " Status Line {{{1
@@ -73,8 +84,8 @@ set undofile undodir=~/.vim/backup/undo/
 " GUI Settings {{{1
 if has("gui_running")
   if has('gui_macvim')
-      set guifont=Meslo\ LG\ S\ for\ Powerline:h15
-      set linespace=1
+    set guifont=Meslo\ LG\ S\ for\ Powerline:h15
+    set linespace=1
   else
     set guioptions= lines=40 columns=140
     set guifont=Meslo\ LG\ S\ for\ Powerline\ 12
@@ -144,9 +155,9 @@ let g:no_default_tabular_maps = 1
 
 " Use pymatcher instead of the fuzzy matcher provided with CtrlP
 if !has('python')
-    echo 'In order to use pymatcher plugin, you need +python compiled vim'
+  echo 'In order to use pymatcher plugin, you need +python compiled vim'
 else
-    " let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
+  " let g:ctrlp_match_func = { 'match': 'pymatcher#PyMatch' }
 endif
 
 " CtrlP settings
@@ -159,12 +170,12 @@ let g:ctrlp_max_files = 0
 let g:ctrlp_clear_cache_on_exit = 0
 " If ag is available use it as filename list generator instead of 'find'
 if executable('ag')
-    " Let CtrlP use ag
-    let g:ctrlp_user_command = 'ag %s -i --nocolor --nogroup --ignore ''.git'' --ignore ''.DS_Store'' --ignore ''node_modules'' --hidden -g ""'
-    " Let grep use ag
-    set grepprg=ag\ --hidden\ grepformat^=%f:%l:%c:%m
-    " Let ack.vim use ag
-    let g:ackprg='ag --nogroup --hidden --nocolor --column'
+  " Let CtrlP use ag
+  let g:ctrlp_user_command = 'ag %s -i --nocolor --nogroup --ignore ''.git'' --ignore ''.DS_Store'' --ignore ''node_modules'' --hidden -g ""'
+  " Let grep use ag
+  set grepprg=ag\ --hidden\ grepformat^=%f:%l:%c:%m
+  " Let ack.vim use ag
+  let g:ackprg='ag --nogroup --hidden --nocolor --column'
 endif
 
 " Airline settings.
@@ -217,6 +228,9 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
+" Activate all available javascript checkers.
+let g:syntastic_javascript_checkers = ['eslint']
+
 " set runtimepath^=~/dotfiles/.vim/bundle/ctrlp.vim
 
 nmap <F8> :TagbarToggle<CR>
@@ -225,11 +239,11 @@ nmap <F8> :TagbarToggle<CR>
 let g:Powerline_symbols = 'fancy'
 let g:Powerline_dividers_override = [[0xe0b0], [0xe0b1], [0xe0b2], [0xe0b3]]
 let g:Powerline_symbols_override = {
-  \ 'BRANCH': [0xe238],
-  \ 'RO'    : [0xe0a2],
-  \ 'FT'    : [0xe1f6],
-  \ 'LINE'  : [0xe0a1],
-  \ }
+      \ 'BRANCH': [0xe238],
+      \ 'RO'    : [0xe0a2],
+      \ 'FT'    : [0xe1f6],
+      \ 'LINE'  : [0xe0a1],
+      \ }
 
 " NeoComplete
 " source ~/dotfiles/.vim/extended_configs/neocomplete.vim
