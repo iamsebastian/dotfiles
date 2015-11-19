@@ -113,7 +113,7 @@ prompt pure
 
 $NVM_SYMLINK_CURRENT=true
 
-export NVM_DIR="/home/sblei/.nvm"
+export NVM_DIR="~/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # Directly use stable branch as default node (maybe will then ignore system installed node)
