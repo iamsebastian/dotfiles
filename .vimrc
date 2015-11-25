@@ -248,6 +248,9 @@ let g:Powerline_symbols_override = {
 " NeoComplete
 " source ~/dotfiles/.vim/extended_configs/neocomplete.vim
 
+" IndentLine plugin configuration
+source ~/dotfiles/.vim/extended_configs/indent_line.vim
+
 " Auto fullscreen on linux-gtk-gvim
 source ~/dotfiles/.vim/extended_configs/gtk_fullscreen.vim
 
