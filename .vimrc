@@ -32,7 +32,7 @@ set fileformats+=mac
 set hidden
 set laststatus=2
 set lazyredraw
-set list listchars=eol:\ ,tab:▸\ ,trail:·
+set list listchars=eol:¬,tab:▸\ ,trail:·,extends:>,precedes:<
 " set mouse=n ttymouse=sgr
 set nojoinspaces
 set nostartofline
