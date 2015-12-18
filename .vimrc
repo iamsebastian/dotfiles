@@ -16,9 +16,9 @@ colorscheme solarized
 
 
 " Let's toogle between dark und light background in color theme.
-nmap <unique> <F5> <Plug>ToggleBackground
-imap <unique> <F5> <Plug>ToggleBackground
-vmap <unique> <F5> <Plug>ToggleBackground
+nnoremap <unique> <F5> <Plug>ToggleBackground
+inoremap <unique> <F5> <Plug>ToggleBackground
+vnoremap <unique> <F5> <Plug>ToggleBackground
 
 " General Settings {{{1
 set autoread autowrite
@@ -233,7 +233,7 @@ let g:syntastic_javascript_checkers = ['eslint']
 
 " set runtimepath^=~/dotfiles/.vim/bundle/ctrlp.vim
 
-nmap <F8> :TagbarToggle<CR>
+nnoremap <F8> :TagbarToggle<CR>
 
 " Updates for vim powerline and the icon fonts
 let g:Powerline_symbols = 'fancy'

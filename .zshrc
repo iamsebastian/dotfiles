@@ -54,7 +54,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
-export PATH="/Users/sebastianblei/.rvm/gems/ruby-1.9.3-p385/bin:/Users/sebastianblei/.rvm/gems/ruby-1.9.3-p385@global/bin:/Users/sebastianblei/.rvm/rubies/ruby-1.9.3-p385/bin:/Users/sebastianblei/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/texbin"
+export PATH="$HOME/.rvm/gems/ruby-1.9.3-p385/bin:$HOME/.rvm/gems/ruby-1.9.3-p385@global/bin:$HOME/.rvm/rubies/ruby-1.9.3-p385/bin:$HOME/.rvm/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/texbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
 # # Preferred editor for local and remote sessions
@@ -119,4 +119,8 @@ export NVM_DIR="/home/$(whoami)/.nvm"
 # Directly use stable branch as default node (maybe will then ignore system installed node)
 # nvm use stable
 
+export PATH="$PATH:$HOME/.local/bin" # Add .local/bin to PATH for scripting (pip will install local scripts here)
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+# Colourize file listings
+eval `dircolors $HOME/.dircolors`

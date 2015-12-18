@@ -101,6 +101,18 @@ $targetdir/.vim/bundle/YouCompleteMe/install.sh
 echo '\nInstalling tmux ...'
 sudo apt-get install tmux
 
+echo '\nInstalling tmux plugins ...'
+mkdir -p ~/.tmux/plugins
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
+# Config does not need to get added, because of the already existing configuration.
+#echo '\nAdding tmux plugin manager to config ...'
+#echo "# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
+#run '~/.tmux/plugins/tpm/tpm'" >> ~/.tmux.conf
+
+# Install colourized file listings
+wget https://raw.githubusercontent.com/seebi/dircolors-solarized/master/dircolors.256dark -O $HOME/.dircolors
+
 echo '\nInstalling python-pygments (pygmentize) for colourful `ccat`'
 sudo apt-get install pytho-pygments
 
