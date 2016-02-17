@@ -105,6 +105,9 @@ echo '\nInstalling tmux plugins ...'
 mkdir -p ~/.tmux/plugins
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
+echo 'Linking tmuxinator'
+ln -s $targetdir/tmuxinator $HOME/.tmuxinator
+
 # Config does not need to get added, because of the already existing configuration.
 #echo '\nAdding tmux plugin manager to config ...'
 #echo "# Initialize TMUX plugin manager (keep this line at the very bottom of tmux.conf)
