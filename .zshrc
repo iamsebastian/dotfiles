@@ -59,7 +59,7 @@ export PATH="$HOME/.rvm/gems/ruby-1.9.3-p385/bin:$HOME/.rvm/gems/ruby-1.9.3-p385
 
 # # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
+export EDITOR='vim'
 # else
 #   export EDITOR='mvim'
 # fi
@@ -117,6 +117,7 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 # Directly use stable branch as default node (maybe will then ignore system installed node)
+# Is not needed, because you can set the default node version with `nvm alias default $node_version`
 # nvm use stable
 
 export PATH="$PATH:$HOME/.local/bin" # Add .local/bin to PATH for scripting (pip will install local scripts here)
