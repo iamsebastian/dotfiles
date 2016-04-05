@@ -122,6 +122,10 @@ export NVM_DIR="$HOME/.nvm"
 
 export PATH="$PATH:$HOME/.local/bin" # Add .local/bin to PATH for scripting (pip will install local scripts here)
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+[ -d $HOME/.cargo ] && export PATH="$PATH:$HOME/.cargo/bin" # Add Cargo to PATH for scripting
 
 # Colourize file listings
 eval `dircolors $HOME/.dircolors`
+
+# added by travis gem
+[ -f /home/sblei/.travis/travis.sh ] && source /home/sblei/.travis/travis.sh
