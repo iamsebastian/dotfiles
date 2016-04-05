@@ -263,3 +263,13 @@ source ~/dotfiles/.vim/mappings/search_word_in_files.vim
 source ~/dotfiles/.vim/mappings/jump_in_listings.vim
 source ~/dotfiles/.vim/mappings/reindent_files.vim
 source ~/dotfiles/.vim/mappings/move_in_quickfixlist.vim
+
+" RUST initialization
+" In this example, the rust source code zip has been extracted to
+" /usr/local/rust/rustc-1.7.0
+let g:ycm_rust_src_path = '/usr/local/rust/rustc-1.7.0/src'
+set hidden
+let g:racer_cmd = "$HOME/.cargo/bin/racer"
+" $RUST_SRC_PATH should get defined in users shell config
+" (~/.[bashrc,zshrc,...)
+" let $RUST_SRC_PATH="<path-to-rust-srcdir>/src/"

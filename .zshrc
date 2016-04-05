@@ -129,3 +129,5 @@ eval `dircolors $HOME/.dircolors`
 
 # added by travis gem
 [ -f /home/sblei/.travis/travis.sh ] && source /home/sblei/.travis/travis.sh
+
+[ -d /usr/local/rust/rustc-1.7.0/src ] && export RUST_SRC_PATH='/usr/local/rust/rustc-1.7.0/src'
