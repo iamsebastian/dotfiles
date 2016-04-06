@@ -68,6 +68,7 @@ fnCrLink .gtkrc-2.0
 fnCrLink .iterm2
 fnCrLink .vimrc
 fnCrLink .zshrc
+fnCrLink .ctags
 
 echo 'Updating git submodules ...'
 cd $targetdir && git submodule update --init --recursive
