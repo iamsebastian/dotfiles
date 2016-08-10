@@ -286,3 +286,6 @@ let g:tagbar_type_rust = {
       \'i:impls,trait implementations',
       \]
       \}
+
+" Ubuntu16.04 comes with following vim {-python, +python3} compiled support
+let g:ycm_server_python_interpreter = '/usr/bin/python3'
