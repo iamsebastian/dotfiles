@@ -131,3 +131,7 @@ eval `dircolors $HOME/.dircolors`
 [ -f /home/sblei/.travis/travis.sh ] && source /home/sblei/.travis/travis.sh
 
 [ -d /usr/local/rust/rustc-1.7.0/src ] && export RUST_SRC_PATH='/usr/local/rust/rustc-1.7.0/src'
+[ -d /usr/local/rust/rustc-1.11.0/src ] && export RUST_SRC_PATH='/usr/local/rust/rustc-1.11.0/src'
+
+# Add cargo's home for autocompletion of racer
+[ -d $HOME/.cargo ] && export CARGO_HOME="$HOME/.cargo/"
