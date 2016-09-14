@@ -1,56 +1,71 @@
 [submodule ".vim/bundle/colorschemes"]
   path = .vim/bundle/colorschemes
   url = https://github.com/flazz/vim-colorschemes.git
+  branch = master
 
 [submodule ".vim/bundle/syntastic"]
   path = .vim/bundle/syntastic
   url = https://github.com/scrooloose/syntastic.git
+  branch = master
 
 [submodule ".vim/bundle/ctrlp.vim"]
   path = .vim/bundle/ctrlp.vim
   url = https://github.com/ctrlpvim/ctrlp.vim.git
+  branch = master
 
 [submodule ".vim/bundle/tagbar"]
   path = .vim/bundle/tagbar
   url = https://github.com/majutsushi/tagbar.git
+  branch = master
 
 [submodule ".vim/bundle/vim-airline"]
   path = .vim/bundle/vim-airline
   url = https://github.com/bling/vim-airline.git
+  branch = master
 
 [submodule ".vim/bundle/vim-fugitive"]
   path = .vim/bundle/vim-fugitive
   url = https://github.com/tpope/vim-fugitive.git
+  branch = master
 
 [submodule ".vim/bundle/vim-gitgutter"]
   path = .vim/bundle/vim-gitgutter
   url = https://github.com/airblade/vim-gitgutter.git
+  branch = master
 
 [submodule ".vim/bundle/vim-jade"]
   path = .vim/bundle/vim-jade
   url = https://github.com/digitaltoad/vim-jade.git
+  branch = master
 
 [submodule ".vim/bundle/YouCompleteMe"]
   path = .vim/bundle/YouCompleteMe
   url = https://github.com/Valloric/YouCompleteMe.git
+  branch = master
 [submodule ".vim/bundle/ack.vim"]
   path = .vim/bundle/ack.vim
   url = https://github.com/mileszs/ack.vim.git
+  branch = master
 [submodule ".vim/bundle/vim-haml"]
   path = .vim/bundle/vim-haml
   url = https://github.com/tpope/vim-haml.git
+  branch = master
 [submodule ".vim/bundle/vim-bufferline"]
   path = .vim/bundle/vim-bufferline
   url = https://github.com/bling/vim-bufferline
+  branch = master
 [submodule ".fonts"]
   path = .fonts
   url = https://github.com/powerline/fonts.git
+  branch = master
 [submodule "t"]
   path = t
   url = https://github.com/sjl/t/
+  branch = master
 [submodule ".vim/bundle/smyck-color-scheme"]
   path = .vim/bundle/smyck-color-scheme
   url = https://github.com/hukl/Smyck-Color-Scheme.git
+  branch = master
 [submodule "awesome-terminal-fonts"]
   path = awesome-terminal-fonts
   url = https://github.com/gabrielelana/awesome-terminal-fonts.git
@@ -58,9 +73,11 @@
 [submodule ".vim/bundle/vim-jsdoc"]
   path = .vim/bundle/vim-jsdoc
   url = https://github.com/heavenshell/vim-jsdoc.git
+  branch = master
 [submodule ".vim/bundle/vim-colors-solarized"]
   path = .vim/bundle/vim-colors-solarized
   url = https://github.com/altercation/vim-colors-solarized.git
+  branch = master
 [submodule ".vim/bundle/solarized"]
   path = .vim/bundle/solarized
   url = https://github.com/wadkar/solarized.git
@@ -68,108 +85,140 @@
 [submodule ".vim/bundle/emmet-vim"]
   path = .vim/bundle/emmet-vim
   url = https://github.com/mattn/emmet-vim.git
+  branch = master
 [submodule ".vim/bundle/nerdtree"]
   path = .vim/bundle/nerdtree
   url = https://github.com/scrooloose/nerdtree.git
-[submodule ".vim/bundle/dash.vim"]
-  path = .vim/bundle/dash.vim
-  url = https://github.com/rizzatti/dash.vim
+  branch = master
 [submodule ".vim/bundle/vim-css-color"]
   path = .vim/bundle/vim-css-color
   url = https://github.com/skammer/vim-css-color.git
+  branch = master
 [submodule ".vim/bundle/vim-json"]
   path = .vim/bundle/vim-json
   url = https://github.com/elzr/vim-json.git
+  branch = master
 [submodule ".vim/bundle/vim-spec"]
   path = .vim/bundle/vim-spec
   url = https://github.com/geekjuice/vim-spec.git
+  branch = master
 [submodule ".vim/bundle/javascript-libraries-syntax.vim"]
   path = .vim/bundle/javascript-libraries-syntax.vim
   url = https://github.com/othree/javascript-libraries-syntax.vim.git
+  branch = master
 [submodule ".vim/bundle/SyntaxComplete"]
   path = .vim/bundle/SyntaxComplete
   url = https://github.com/vim-scripts/SyntaxComplete
+  branch = master
 [submodule ".vim/bundle/tern_for_vim"]
   path = .vim/bundle/tern_for_vim
   url = https://github.com/marijnh/tern_for_vim.git
+  branch = master
 [submodule ".vim/bundle/rust.vim"]
   path = .vim/bundle/rust.vim
   url = https://github.com/rust-lang/rust.vim
+  branch = master
 [submodule "gnome-terminal-colors-solarized"]
   path = gnome-terminal-colors-solarized
   url = https://github.com/Anthony25/gnome-terminal-colors-solarized.git
+  branch = master
 [submodule "z"]
   path = z
   url = https://github.com/rupa/z.git
+  branch = master
 [submodule ".vim/bundle/vim-javascript-syntax"]
   path = .vim/bundle/vim-javascript-syntax
   url = https://github.com/jelera/vim-javascript-syntax.git
+  branch = master
 [submodule ".vim/bundle/vim-rest-console"]
   path = .vim/bundle/vim-rest-console
   url = https://github.com/diepm/vim-rest-console.git
+  branch = master
 [submodule ".vim/bundle/Greplace.vim"]
   path = .vim/bundle/Greplace.vim
   url = https://github.com/vim-scripts/Greplace.vim
+  branch = master
 [submodule ".vim/bundle/ag.vim"]
   path = .vim/bundle/ag.vim
   url = https://github.com/rking/ag.vim.git
+  branch = master
 [submodule ".vim/bundle/ctrlsf.vim"]
   path = .vim/bundle/ctrlsf.vim
   url = https://github.com/dyng/ctrlsf.vim.git
+  branch = master
 [submodule ".vim/bundle/neocomplete.vim"]
   path = .vim/bundle/neocomplete.vim
   url = https://github.com/Shougo/neocomplete.vim.git
+  branch = master
 [submodule ".vim/bundle/vim-multiple-cursors"]
   path = .vim/bundle/vim-multiple-cursors
   url = https://github.com/terryma/vim-multiple-cursors.git
+  branch = master
 [submodule ".vim/bundle/vim-nodejs-complete"]
   path = .vim/bundle/vim-nodejs-complete
   url = https://github.com/ahayman/vim-nodejs-complete.git
+  branch = master
 [submodule ".vim/bundle/vim-surround"]
   path = .vim/bundle/vim-surround
   url = https://github.com/tpope/vim-surround.git
+  branch = master
 [submodule ".vim/bundle/vim-misc"]
   path = .vim/bundle/vim-misc
   url = https://github.com/xolox/vim-misc.git
+  branch = master
 [submodule ".vim/bundle/vim-easytags"]
   path = .vim/bundle/vim-easytags
   url = https://github.com/xolox/vim-easytags.git
+  branch = master
 [submodule ".vim/bundle/powerline-fonts"]
   path = .vim/bundle/powerline-fonts
   url = https://github.com/powerline/fonts
+  branch = master
 [submodule ".vim/bundle/vim-mustache-handlebars"]
   path = .vim/bundle/vim-mustache-handlebars
   url = https://github.com/mustache/vim-mustache-handlebars
+  branch = master
 [submodule ".vim/bundle/vim-es6"]
   path = .vim/bundle/vim-es6
   url = git@github.com:isRuslan/vim-es6.git
+  branch = master
 [submodule ".vim/bundle/vim-indent-guides"]
   path = .vim/bundle/vim-indent-guides
   url = git@github.com:nathanaelkane/vim-indent-guides.git
+  branch = master
 [submodule ".vim/bundle/nerdcommenter"]
   path = .vim/bundle/nerdcommenter
   url = https://github.com/scrooloose/nerdcommenter.git
+  branch = master
 [submodule ".vim/bundle/indentLine"]
   path = .vim/bundle/indentLine
   url = https://github.com/Yggdroot/indentLine
+  branch = master
 [submodule ".vim/bundle/vim-toml"]
   path = .vim/bundle/vim-toml
   url = https://github.com/cespare/vim-toml
+  branch = master
 [submodule ".vim/bundle/vim-airline-themes"]
   path = .vim/bundle/vim-airline-themes
   url = https://github.com/vim-airline/vim-airline-themes
+  branch = master
 [submodule ".vim/bundle/vim-racer"]
   path = .vim/bundle/vim-racer
   url = https://github.com/racer-rust/vim-racer
+  branch = master
 [submodule ".vim/bundle/ctrlp-py-matcher"]
   path = .vim/bundle/ctrlp-py-matcher
   url = https://github.com/FelikZ/ctrlp-py-matcher.git
+  branch = master
 [submodule ".vim/bundle/vim-jekyll"]
-	path = .vim/bundle/vim-jekyll
-	url = https://github.com/parkr/vim-jekyll.git
+  path = .vim/bundle/vim-jekyll
+  url = https://github.com/parkr/vim-jekyll.git
+  branch = master
 [submodule ".vim/bundle/vim-markdown-preview"]
-	path = .vim/bundle/vim-markdown-preview
-	url = https://github.com/nelstrom/vim-markdown-preview
+  path = .vim/bundle/vim-markdown-preview
+  url = https://github.com/nelstrom/vim-markdown-preview
+  branch = master
 [submodule ".vim/bundle/pgsql.vim"]
-	path = .vim/bundle/pgsql.vim
-	url = https://github.com/lifepillar/pgsql.vim.git
+  path = .vim/bundle/pgsql.vim
+  url = https://github.com/lifepillar/pgsql.vim.git
+  branch = master
