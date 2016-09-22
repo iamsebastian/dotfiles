@@ -267,7 +267,7 @@ source ~/dotfiles/.vim/mappings/move_in_quickfixlist.vim
 " RUST initialization
 " In this example, the rust source code zip has been extracted to
 " /usr/local/rust/rustc-1.7.0
-let g:ycm_rust_src_path = '/usr/local/rust/rustc-1.7.0/src'
+let g:ycm_rust_src_path = '/usr/local/rust/rustc-latest-unstable-src'
 set hidden
 let g:racer_cmd = "$HOME/.cargo/bin/racer"
 " $RUST_SRC_PATH should get defined in users shell config

@@ -132,6 +132,7 @@ eval `dircolors $HOME/.dircolors`
 
 [ -d /usr/local/rust/rustc-1.7.0/src ] && export RUST_SRC_PATH='/usr/local/rust/rustc-1.7.0/src'
 [ -d /usr/local/rust/rustc-1.11.0/src ] && export RUST_SRC_PATH='/usr/local/rust/rustc-1.11.0/src'
+[ -d /usr/local/rust/rustc-latest-unstable-src ] && export RUST_SRC_PATH='/usr/local/rust/rustc-latest-unstable-src'
 
 # Add cargo's home for autocompletion of racer
 [ -d $HOME/.cargo ] && export CARGO_HOME="$HOME/.cargo/"
