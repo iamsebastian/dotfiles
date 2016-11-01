@@ -263,6 +263,7 @@ source ~/dotfiles/.vim/mappings/search_word_in_files.vim
 source ~/dotfiles/.vim/mappings/jump_in_listings.vim
 source ~/dotfiles/.vim/mappings/reindent_files.vim
 source ~/dotfiles/.vim/mappings/move_in_quickfixlist.vim
+source ~/dotfiles/.vim/mappings/easymotion.vim
 
 " RUST initialization
 " In this example, the rust source code zip has been extracted to
