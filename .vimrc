@@ -88,7 +88,7 @@ if has("gui_running")
     set linespace=1
   else
     set guioptions= lines=40 columns=140
-    set guifont=Meslo\ LG\ S\ for\ Powerline\ 12
+    set guifont=PragmataPro\ 14
   endif
 endif
 
