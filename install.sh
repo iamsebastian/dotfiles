@@ -131,3 +131,8 @@ git clone git://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/cu
 
 echo '\nInstalling pure oh-my-zsh theme, if npm is installed globally ...'
 npm i -g pure-prompt
+
+echo '\nInstalling `diff-so-fancy` ...'
+npm i diff-so-fancy
+echo '\n... and updating the git diff look.'
+git config --global core.pager "diff-so-fancy | less --tabs=4 -RFX"
