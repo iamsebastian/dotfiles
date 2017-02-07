@@ -255,6 +255,7 @@ source ~/dotfiles/.vim/extended_configs/indent_line.vim
 source ~/dotfiles/.vim/extended_configs/gtk_fullscreen.vim
 
 " Custom key mappings
+source ~/dotfiles/.vim/mappings/remap_nohl_esc.vim
 source ~/dotfiles/.vim/mappings/remap_arrowkeys.vim
 source ~/dotfiles/.vim/mappings/remap_colons.vim
 source ~/dotfiles/.vim/mappings/remap_hjkl.vim
@@ -287,6 +288,8 @@ let g:tagbar_type_rust = {
       \'i:impls,trait implementations',
       \]
       \}
+" Let RustFmt format every rust-buffer on save.
+let g:rustfmt_autosave = 1
 
 " Ubuntu16.04 comes with following vim {-python, +python3} compiled support
 let g:ycm_server_python_interpreter = '/usr/bin/python3'
