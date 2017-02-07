@@ -140,7 +140,7 @@
   branch = master
 [submodule ".vim/bundle/ag.vim"]
   path = .vim/bundle/ag.vim
-  url = https://github.com/rking/ag.vim.git
+  url = https://github.com/albfan/ag.vim
   branch = master
 [submodule ".vim/bundle/ctrlsf.vim"]
   path = .vim/bundle/ctrlsf.vim
