@@ -228,7 +228,7 @@ let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
-" Activate all available javascript checkers.
+" Activate all available ... checkers.
 let g:syntastic_javascript_checkers = ['eslint']
 
 " set runtimepath^=~/dotfiles/.vim/bundle/ctrlp.vim
@@ -290,6 +290,13 @@ let g:tagbar_type_rust = {
       \}
 " Let RustFmt format every rust-buffer on save.
 let g:rustfmt_autosave = 1
+
+let g:syntastic_rust_rustc_exe = 'cargo check'
+let g:syntastic_rust_rustc_fname = ''
+let g:syntastic_rust_rustc_args = '--'
+let g:syntastic_rust_checkers = ['rustc']
+" let g:syntastic_debug = 1
+" let g:syntastic_debug_file = "~/syntastic.log"
 
 " Ubuntu16.04 comes with following vim {-python, +python3} compiled support
 let g:ycm_server_python_interpreter = '/usr/bin/python3'
