@@ -226,3 +226,7 @@
 	path = .vim/bundle/vim-easymotion
 	url = https://github.com/easymotion/vim-easymotion
 	branch = master
+[submodule ".vim/bundle/csv.vim"]
+	path = .vim/bundle/csv.vim
+	url = https://github.com/chrisbra/csv.vim.git
+	branch = master

@@ -38,7 +38,7 @@ windows:
       root: ~/Projects/macsi-rust-api/
       panes:
         - docker restart some-postgres && docker logs -f some-postgres
-        - cargo run
+        - RUST_BACKTRACE=1 RUST_LOG=info cargo run
   - ember:
       layout: even-horizontal
       root: ~/Projects/bp/macsi-ember-frontend/
