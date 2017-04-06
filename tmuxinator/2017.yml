@@ -1,0 +1,23 @@
+# ~/.tmuxinator/daily.yml
+
+name: 2017
+root: ~/
+
+windows:
+  - live_srv:
+      layout: even-horizontal
+      root: ~/
+      panes:
+        - ~/._bind_live_server
+  - rust_api:
+      layout: even-horizontal
+      root: ~/Projects/macsi-rust-api/
+      panes:
+        - sudo service docker restart && docker restart some-postgres && RUST_BACKTRACE=1 RUST_LOG=info cargo run --bin main
+        - clear
+  - ember:
+      layout: even-horizontal
+      root: ~/Projects/bp/macsi-ember-frontend/
+      panes:
+        - ember s
+        - clear
