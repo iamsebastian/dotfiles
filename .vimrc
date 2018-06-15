@@ -291,10 +291,10 @@ let g:tagbar_type_rust = {
 " Let RustFmt format every rust-buffer on save.
 let g:rustfmt_autosave = 1
 
-let g:syntastic_rust_rustc_exe = 'cargo check'
-let g:syntastic_rust_rustc_fname = ''
-let g:syntastic_rust_rustc_args = '--'
-let g:syntastic_rust_checkers = ['rustc']
+"let g:syntastic_rust_rustc_exe = 'cargo check'
+"let g:syntastic_rust_rustc_fname = ''
+"let g:syntastic_rust_rustc_args = '--'
+"let g:syntastic_rust_checkers = ['cargo']
 " let g:syntastic_debug = 1
 " let g:syntastic_debug_file = "~/syntastic.log"
 

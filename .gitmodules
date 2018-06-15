@@ -230,3 +230,15 @@
 	path = .vim/bundle/csv.vim
 	url = https://github.com/chrisbra/csv.vim.git
 	branch = master
+[submodule ".vim/bundle/tsuquyomi"]
+	path = .vim/bundle/tsuquyomi
+	url = git@github.com:Quramy/tsuquyomi.git
+	branch = master
+[submodule ".vim/bundle/vimproc.vim"]
+	path = .vim/bundle/vimproc.vim
+	url = https://github.com/Shougo/vimproc.vim.git
+	branch = master
+[submodule ".vim/bundle/typescript-vim"]
+	path = .vim/bundle/typescript-vim
+	url = git@github.com:leafgarland/typescript-vim.git
+	branch = master
